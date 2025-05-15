@@ -121,7 +121,7 @@
 
                     <div class="agenda-content">
                     <div class="agenda-badges">
-                    <span class="agenda-tag yellow">Bupati</span>
+                    <span class="agenda-tag yellow">Bupati pulau seribu</span>
                     </div>
 
                     <h3 class="agenda-title">

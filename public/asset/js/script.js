@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const pejabatPhoto = document.getElementById('pejabatPhoto');
 
   const photoMap = {
-    bupati: 'assets/photo/plt_bupati_fadjar_putih.png',
+    bupati: 'public/asset/photo/plt_bupati_fadjar_putih.png',
     wakil: 'assets/photo/SKM.jpg',
     sekretaris: 'assets/photo/sekretaris.jpg',
   };

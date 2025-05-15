@@ -1,7 +1,6 @@
 
 <!-- NAVIGASI -->
-<?php include "../fragmen/header.php"; ?>
-
+<?php include "../spasial/header.php"; ?>
 <div class="hero2">
     <!-- Gambar Tetap Hero Pariwisata -->
     <div class="hero-fixed">
@@ -275,4 +274,4 @@
 </div>
 
 <!-- FOOTER -->
-<?php include "../fragmen/footer.php"; ?>
+  <?php include "../spasial/footer.php"; ?>

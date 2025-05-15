@@ -1,4 +1,4 @@
-<?php include "../view/spasial/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
   
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
@@ -113,4 +113,4 @@
 <!-- Prestasi Section end -->
 
 
-  <?php include "../view/spasial/footer.php"; ?>
+  <?php include "../spasial/footer.php"; ?>

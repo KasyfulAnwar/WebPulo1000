@@ -1,9 +1,11 @@
-<?php include "../fragmen/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
+
+
 
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="images/seribu_selatan.jpg" alt="Hero Pariwisata" style="width: 100%; height: 30vh; object-fit: cover" />
+    <img src="./public/asset/img/seribu_selatan.jpg" alt="Hero Pariwisata" style="width: 100%; height: 60vh; object-fit: cover" />
   </div>
 
   <!-- Teks di Tengah -->
@@ -56,4 +58,4 @@
 
 
 
-<?php include "../fragmen/footer.php"; ?>
+<?php include "../spasial/footer.php"; ?>

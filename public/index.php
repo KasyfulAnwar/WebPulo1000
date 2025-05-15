@@ -1,17 +1,17 @@
- <?php include "../view/spasial/head.php"; ?>
+ <?php include "../view/spasial/header.php"; ?>
     <!-- NAVIGASI -->
    
 
     <!-- Hero Section with Slideshow -->
     <div class="hero">
       <div class="slideshow">
-        <div class="hero-slide active" style="background-image: url('./public/assets/images/background1.jpg')">
+        <div class="hero-slide active" style="background-image: url('images/background1.jpg')">
           <div class="slide-text">HARAPAN</div>
         </div>
-        <div class="hero-slide" style="background-image: url('./public/assets/images/background2.jpg')">
+        <div class="hero-slide" style="background-image: url('images/background2.jpg')">
           <div class="slide-text">SEPA</div>
         </div>
-        <div class="hero-slide" style="background-image: url('./public/assets/images/background3.jpg')">
+        <div class="hero-slide" style="background-image: url('images/background3.jpg')">
           <div class="slide-text">KELOR</div>
         </div>
       </div>
@@ -99,10 +99,10 @@
             <div class="col-md-6 mt-3" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
               <div class="layanan-images d-flex flex-column gap-4">
                 <div class="layanan-img">
-                  <img src="./public/assets/photo/SKM.jpg" alt="Gambar 1" class="img-fluid rounded shadow" />
+                  <img src="./public/asset/photo/SKM.jpg" alt="Gambar 1" class="img-fluid rounded shadow" />
                 </div>
                 <div class="layanan-img">
-                  <img src="./public/assets/images/wisatawan.png" alt="Gambar 2" class="img-fluid rounded shadow" />
+                  <img src="images/wisatawan.png" alt="Gambar 2" class="img-fluid rounded shadow" />
                 </div>
               </div>
             </div>
@@ -134,17 +134,17 @@
                   <!-- Carousel Items -->
                   <div class="carousel-inner" data-aos="fade-right" data-aos-duration="1000">
                     <div class="carousel-item active" id="carouselExampleCaptions" class="carousel slide">
-                      <img src="./public/assets/photo/Pramono_Anung_Gubernur_DKI.jpg" class="d-block img-bordered w-75" alt="Gubernur" />
+                      <img src="./public/asset/photo/Pramono_Anung_Gubernur_DKI.jpg" class="d-block img-bordered w-75" alt="Gubernur" />
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
 
                     <div class="carousel-item">
-                      <img src="./public/assets/photo/Rano_karno_Wagub_DKJ.jpg" class="d-block img-bordered w-75" alt="Gubernur" />
+                      <img src="./public/asset/photo/Pramono_Anung_Gubernur_DKI - 2.jpg" class="d-block img-bordered w-75" alt="Gubernur" />
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
 
                     <div class="carousel-item">
-                      <img src="./public/assets/photo/plt_bupati_fadjar_putih.png" class="d-block img-bordered w-75" alt="Sekda" />
+                      <img src="./public/asset/photo/plt_bupati_fadjar_putih.png" class="d-block img-bordered w-75" alt="Sekda" />
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                   </div>
@@ -204,7 +204,7 @@
         <div class="news-grid">
           <div class="news-card" data-views="50">
             <div class="category">Kesejahteraan Masyarakat</div>
-            <img src="./public/assets/photo/pulau-tidung.jpg" alt="Berita 1" />
+            <img src="./public/asset/photo/pulau-tidung.jpg" alt="Berita 1" />
             <h3>Fasilitas Mesin ATM Bank DKI di Pulau Panggang Kembali Beroperasi</h3>
             <p>Mesin ATM Bank DKI di Pulau Panggang, Kepulauan Seribu Utara kembali beroperasi setelah sebelumnya tidak berfungsi...</p>
             <button class="button">Lihat Detail</button>
@@ -217,7 +217,7 @@
 
           <div class="news-card" data-views="8">
             <div class="category">Kesejahteraan Masyarakat</div>
-            <img src="./public/assets/photo/Pulau Pramuka, Kepulauan Seribu.jpeg" alt="Berita 2" />
+            <img src="./public/asset/photo/Pulau Pramuka, Kepulauan Seribu.jpeg" alt="Berita 2" />
             <h3>Kepulauan Seribu Memiliki Potensi Pencegahan Stunting</h3>
             <p>Stunting masih menjadi tantangan di Indonesia, termasuk di Kepulauan Seribu, yang dikenal memiliki sumber protein hewani dari ikan...</p>
             <button class="button">Lihat Detail</button>
@@ -230,7 +230,7 @@
 
           <div class="news-card" data-views="20">
             <div class="category">Kesejahteraan Masyarakat</div>
-            <img src="./public/assets/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
+            <img src="./public/asset/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
             <h3>Sudin PPKUKM Kepulauan Seribu Selenggarakan Pangan Murah</h3>
             <p>Suku Dinas Perindustrian, Perdagangan, Koperasi, Usaha Kecil, dan Menengah akan menggelar kegiatan pangan murah...</p>
             <button class="button">Lihat Detail</button>
@@ -256,43 +256,43 @@
         <h2>PANORAMA</h2>
         <div class="grid-container">
           <div class="grid-item">
-            <a href="./public/assets/images/pano.jpg" data-fancybox="gallery">
-              <img src="./public/assets/images/pano.jpg" alt="Pulau Tropis" />
+            <a href="images/pano.jpg" data-fancybox="gallery">
+              <img src="images/pano.jpg" alt="Pulau Tropis" />
             </a>
           </div>
           <div class="grid-item">
-            <a href="./public/assets/images/pano2.jpg" data-fancybox="gallery">
-              <img src="./public/assets/images/pano2.jpg" alt="Terumbu Karang" />
+            <a href="images/pano2.jpg" data-fancybox="gallery">
+              <img src="images/pano2.jpg" alt="Terumbu Karang" />
             </a>
           </div>
           <div class="grid-item">
-            <a href="./public/assets/images/pano3.jpg" data-fancybox="gallery">
-              <img src="./public/assets/images/pano3.jpg" alt="Pantai dan Perahu" />
+            <a href="images/pano3.jpg" data-fancybox="gallery">
+              <img src="images/pano3.jpg" alt="Pantai dan Perahu" />
             </a>
           </div>
           <div class="grid-item">
-            <a href="./public/assets/images/pano4.jpg" data-fancybox="gallery">
-              <img src="./public/assets/images/pano4.jpg" alt="Langit Senja" />
+            <a href="images/pano4.jpg" data-fancybox="gallery">
+              <img src="images/pano4.jpg" alt="Langit Senja" />
             </a>
           </div>
           <div class="grid-item">
-            <a href="./public/assets/images/pano5.jpg" data-fancybox="gallery">
-              <img src="./public/assets/images/pano5.jpg" alt="Hutan Tropis" />
+            <a href="images/pano5.jpg" data-fancybox="gallery">
+              <img src="images/pano5.jpg" alt="Hutan Tropis" />
             </a>
           </div>
           <div class="grid-item">
-            <a href="./public/assets/images/pano6.jpg" data-fancybox="gallery">
-              <img src="./public/assets/images/pano6.jpg" alt="Pulau Kecil" />
+            <a href="images/pano6.jpg" data-fancybox="gallery">
+              <img src="images/pano6.jpg" alt="Pulau Kecil" />
             </a>
           </div>
           <div class="grid-item">
-            <a href="./public/assets/images/pano7.jpg" data-fancybox="gallery">
-              <img src="./public/assets/images/pano7.jpg" alt="Pulau Kecil" />
+            <a href="images/pano7.jpg" data-fancybox="gallery">
+              <img src="images/pano7.jpg" alt="Pulau Kecil" />
             </a>
           </div>
           <div class="grid-item">
-            <a href="./public/assets/images/pano8.jpg" data-fancybox="gallery">
-              <img src="./public/assets/images/pano8.jpg" alt="Pulau Kecil" />
+            <a href="images/pano8.jpg" data-fancybox="gallery">
+              <img src="images/pano8.jpg" alt="Pulau Kecil" />
             </a>
           </div>
         </div>

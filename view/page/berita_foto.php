@@ -1,10 +1,10 @@
 <!-- NAVIGASI -->
-<?php include "../fragmen/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
 
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="images/p_pari.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
+    <img src="./public/asset/img/p_pari.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
   </div>
 
   <!-- Teks di Tengah -->
@@ -21,7 +21,7 @@
         <div class="news-layout">
             <div class="gallery">
                 <div class="photo">
-                <img src="images/photo1.jpeg" alt="Pelatihan Surveyor di Kamal Muara" />
+                <img src="./public/asset/img/photo1.jpeg" alt="Pelatihan Surveyor di Kamal Muara" />
                 <div class="caption">
                     <h3>Pemerintahan | Selasa, 24/09/2024</h3>
                     <p>Wakil Bupati Fadjar Buka Kegiatan Penyuluhan FKDM di Pulau Pramuka</p>
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="photo">
-                <img src="images/photo2.jpeg" alt="Kegiatan Sosial" />
+                <img src="./public/asset/img/photo2.jpeg" alt="Kegiatan Sosial" />
                 <div class="caption">
                     <h3>Pemerintahan | Kamis, 19/09/2024</h3>
                     <p>Pilkada DKI Jakarta, Wakil Bupati Kepulauan Seribu Ingatkan ASN Jaga Netralitas</p>
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="photo">
-                <img src="images/photo3.jpeg" alt="Penertiban Wilayah" />
+                <img src="./public/asset/img/photo3.jpeg" alt="Penertiban Wilayah" />
                 <div class="caption">
                     <h3>Pemerintahan | Sabtu, 17/08/2024</h3>
                     <p>Masuk 50 Besar ADWI 2024, Menparekraf Sandiaga Kagumi Wisata Pulau Pramuka</p>
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="photo">
-                <img src="images/photo4.jpeg" alt="Penertiban Wilayah" />
+                <img src="./public/asset/img/photo4.jpeg" alt="Penertiban Wilayah" />
                 <div class="caption">
                     <h3>Jumat, 3 Mei 2024</h3>
                     <p>Pulau seribu para wisatawan</p>
@@ -57,7 +57,7 @@
                 </div>
 
                 <div class="photo">
-                <img src="images/photo5.jpeg" alt="Penertiban Wilayah" />
+                <img src="./public/asset/img/photo5.jpeg" alt="Penertiban Wilayah" />
                 <div class="caption">
                     <h3>Pemerintahan | Sabtu, 17/08/2024</h3>
                     <p>Masuk 50 Besar ADWI 2024, Menparekraf Sandiaga Kagumi Wisata Pulau Pramuka</p>
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="photo">
-                <img src="images/photo6.jpeg" alt="Penertiban Wilayah" />
+                <img src="./public/asset/img/photo6.jpeg" alt="Penertiban Wilayah" />
                 <div class="caption">
                     <h3>Pemerintahan | Sabtu, 17/08/2024</h3>
                     <p>Masuk 50 Besar ADWI 2024, Menparekraf Sandiaga Kagumi Wisata Pulau Pramuka</p>
@@ -122,4 +122,4 @@
     <!-- section berita foto end -->
 
 <!-- FOOTER -->
-<?php include "../fragmen/footer.php"; ?>
+<?php include "../spasial/footer.php"; ?>

@@ -97,7 +97,7 @@
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">KELURAHAN </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="pages/kel_untung_jawa" id="sub-dropdown">KEL. UNTUNG JAWA</a>
+                      <a class="dropdown-item" href="./view/page/kel_untung_jawa.php" id="sub-dropdown">KEL. UNTUNG JAWA</a>
                     </li>
                     <li><a class="dropdown-item" href="./view/page/kel_pari.php" id="sub-dropdown">KEL. PARI</a></li>
                     <li><a class="dropdown-item" href="./view/page/kel_tidung.php" id="sub-dropdown">KEL. TIDUNG</a></li>

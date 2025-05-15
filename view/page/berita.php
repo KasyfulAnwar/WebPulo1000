@@ -1,10 +1,10 @@
 <!-- NAVIGASI -->
-<?php include "../fragmen/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
 
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="images/p_pari.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
+    <img src="./public/asset/img/p_pari.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
   </div>
 
   <!-- Teks di Tengah -->
@@ -23,7 +23,7 @@
                 <div class="news-grid2">
                 <div class="news-card2" data-views="50">
                     <div class="category">Kesejahteraan Masyarakat</div>
-                    <img src="assets/photo/pulau-tidung.jpg" alt="Berita 1" />
+                    <img src="./public/asset/photo/pulau-tidung.jpg" alt="Berita 1" />
                     <h3>Fasilitas Mesin ATM Bank DKI di Pulau Panggang Kembali Beroperasi</h3>
                     <p>Mesin ATM Bank DKI di Pulau Panggang, Kepulauan Seribu Utara kembali beroperasi setelah sebelumnya tidak berfungsi...</p>
                     <button class="button">Lihat Detail</button>
@@ -36,7 +36,7 @@
 
                 <div class="news-card2" data-views="8">
                     <div class="category">Kesejahteraan Masyarakat</div>
-                    <img src="assets/photo/Pulau Pramuka, Kepulauan Seribu.jpeg" alt="Berita 2" />
+                    <img src="./public/asset/photo/Pulau Pramuka, Kepulauan Seribu.jpeg" alt="Berita 2" />
                     <h3>Kepulauan Seribu Memiliki Potensi Pencegahan Stunting</h3>
                     <p>Stunting masih menjadi tantangan di Indonesia, termasuk di Kepulauan Seribu, yang dikenal memiliki sumber protein hewani dari ikan...</p>
                     <button class="button">Lihat Detail</button>
@@ -49,7 +49,7 @@
 
                 <div class="news-card2" data-views="20">
                     <div class="category">Kesejahteraan Masyarakat</div>
-                    <img src="assets/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
+                    <img src="./public/asset/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
                     <h3>Sudin PPKUKM Kepulauan Seribu Selenggarakan Pangan Murah</h3>
                     <p>Suku Dinas Perindustrian, Perdagangan, Koperasi, Usaha Kecil, dan Menengah akan menggelar kegiatan pangan murah...</p>
                     <button class="button">Lihat Detail</button>
@@ -62,7 +62,7 @@
 
                 <div class="news-card2" data-views="20">
                     <div class="category">Kesejahteraan Masyarakat</div>
-                    <img src="assets/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
+                    <img src="./public/asset/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
                     <h3>Sudin PPKUKM Kepulauan Seribu Selenggarakan Pangan Murah</h3>
                     <p>Suku Dinas Perindustrian, Perdagangan, Koperasi, Usaha Kecil, dan Menengah akan menggelar kegiatan pangan murah...</p>
                     <button class="button">Lihat Detail</button>
@@ -75,7 +75,7 @@
 
                 <div class="news-card2" data-views="20">
                     <div class="category">Kesejahteraan Masyarakat</div>
-                    <img src="assets/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
+                    <img src="./public/asset/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
                     <h3>Sudin PPKUKM Kepulauan Seribu Selenggarakan Pangan Murah</h3>
                     <p>Suku Dinas Perindustrian, Perdagangan, Koperasi, Usaha Kecil, dan Menengah akan menggelar kegiatan pangan murah...</p>
                     <button class="button">Lihat Detail</button>
@@ -88,7 +88,7 @@
 
                 <div class="news-card2" data-views="20">
                     <div class="category">Kesejahteraan Masyarakat</div>
-                    <img src="assets/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
+                    <img src="./public/asset/photo/Pulau Tidung, Kepulauan Seribu.jpeg" alt="Berita 3" />
                     <h3>Sudin PPKUKM Kepulauan Seribu Selenggarakan Pangan Murah</h3>
                     <p>Suku Dinas Perindustrian, Perdagangan, Koperasi, Usaha Kecil, dan Menengah akan menggelar kegiatan pangan murah...</p>
                     <button class="button">Lihat Detail</button>
@@ -144,4 +144,4 @@
     </div>
 
 <!-- FOOTER -->
-<?php include "../fragmen/footer.php"; ?>
+<?php include "../spasial/footer.php"; ?>

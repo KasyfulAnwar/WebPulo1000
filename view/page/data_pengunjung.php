@@ -1,12 +1,17 @@
 <!-- NAVIGASI -->
-<?php include "../fragmen/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
 
 <!-- Konten Pariwisata -->
-<div class="hero2">
+<div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="images/background1.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh" />
-    <div class="hero-title"></div>
+    <img src="./public/asset/img/background1.jpg" alt="Hero Pariwisata" style="width: 100%; height: 50vh; object-fit: cover, box-shadow: 0 10px 20px rgba(0, 0, 0,0.5);" />
+  </div>
+
+  <!-- Teks di Tengah -->
+  <div class="hero-text position-absolute top-50 start-50 translate-middle text-white text-center">
+    <h1 class="fw-bold display-4">Data Pengunjung</h1>
+    <p class="lead">Kabupaten Administrasi Kepulauan Seribu</p>
   </div>
 </div>
 <div class="container" id="nama" style="padding: 5px;margin-top:30px">
@@ -23,4 +28,4 @@
   ></iframe>
 </div>
 <!-- FOOTER -->
-<?php include "../fragmen/footer.php"; ?>
+<?php include "../spasial/footer.php"; ?>

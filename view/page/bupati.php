@@ -1,9 +1,9 @@
-<?php include "../fragmen/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
 
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="images/bgbupati.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover, box-shadow: 0 10px 20px rgba(0, 0, 0,0.5);" />
+    <img src="./public/asset/img/bgbupati.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover, box-shadow: 0 10px 20px rgba(0, 0, 0,0.5);" />
   </div>
 
   <!-- Teks di Tengah -->
@@ -18,7 +18,7 @@
       <!-- Profil Image dan Nama -->
       <div id="left-section" data-aos="fade-right" data-aos-duration="1200">
         <div id="profile-card">
-          <img src="assets/photo/plt_bupati_fadjar_putih.png" alt="Profile Image" id="profile-img">
+          <img src="./public/asset/photo/plt_bupati_fadjar_putih.png" alt="Profile Image" id="profile-img">
           <div id="profile-header" class="mt-3">
             Muh. Fadjar Churniawan
           </div>
@@ -136,4 +136,4 @@
     </div>
   </div>
 
-<?php include "../fragmen/footer.php"; ?>
+<?php include "../spasial/footer.php"; ?>

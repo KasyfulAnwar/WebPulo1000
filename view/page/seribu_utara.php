@@ -1,9 +1,9 @@
-<?php include "../fragmen/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
 
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="images/seribu_selatan.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
+    <img src="./public/asset/img/seribu_selatan.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
   </div>
 
   <!-- Teks di Tengah -->
@@ -54,7 +54,7 @@
 <div id="kelurahan-section" class="container py-5">
   <div class="row g-4">
     <div class="col-md-4">
-      <a href="pages/kel_harapan.php" class="card-link">
+      <a href="./view/page/kel_harapan.php" class="card-link">
         <div class="card text-center p-4 card-hover">
           <i class="bi bi-bank icon-style text-success"></i>
           <div class="card-body">
@@ -64,7 +64,7 @@
       </a>
     </div>
     <div class="col-md-4">
-      <a href="pages/kel_kelapa.php" class="card-link">
+      <a href="./view/page/kel_kelapa.php" class="card-link">
         <div class="card text-center p-4 card-hover">
           <i class="bi bi-bank icon-style text-success"></i>
           <div class="card-body">
@@ -74,7 +74,7 @@
       </a>
     </div>
     <div class="col-md-4">
-      <a href="pages/kel_panggang.php" class="card-link">
+      <a href="./view/page/kel_panggang.php" class="card-link">
         <div class="card text-center p-4 card-hover">
           <i class="bi bi-bank icon-style text-success"></i>
           <div class="card-body">
@@ -122,7 +122,7 @@
   <div class="row">
     <!-- Gambar Profil (kiri) -->
     <div class="col-md-4 text-center">
-      <img src="assets/photo/camat_utara.jpeg" alt="angga_saputra" class="profile-image" style="width:500px;padding-right:85px" />
+      <img src="./public/asset/photo/camat_utara.jpeg" alt="angga_saputra" class="profile-image" style="width:500px;padding-right:85px" />
     </div>
     <!-- Deskripsi Profil (kanan) -->
     <div class="col-md-8">
@@ -176,7 +176,7 @@
     <!-- Kolom Gambar Survei -->
     <div class="col-md-6">
       <div class="img-box">
-        <img src="./images/skm_selatan.jpeg" alt="Survei Kepuasan Masyarakat">
+        <img src="./public/asset/img/skm_selatan.jpeg" alt="Survei Kepuasan Masyarakat">
       </div>
     </div>
   </div>
@@ -192,7 +192,7 @@
     <div class="col-md-12">
       <div class="news-item d-flex">
         <div class="news-img-wrapper">
-          <img src="images/berita2.jpg" alt="News 2" class="img-fluid news-img" />
+          <img src="./public/asset/img/berita2.jpg" alt="News 2" class="img-fluid news-img" />
         </div>
         <div class="news-text">
           <h5 class="news-title">Curhat Pemilik Restoran Tangsel Dipalak Rp3 Juta per Bulan Agar Aman</h5>
@@ -205,7 +205,7 @@
     <div class="col-md-12">
       <div class="news-item d-flex">
         <div class="news-img-wrapper">
-          <img src="images/berita2.jpg" alt="News 2" class="img-fluid news-img" />
+          <img src="./public/asset/img/berita2.jpg" alt="News 2" class="img-fluid news-img" />
         </div>
         <div class="news-text">
           <h5 class="news-title">Disiram Pakai Sampanye Non-alkohol, Salah Peringatkan Nunez</h5>
@@ -218,7 +218,7 @@
     <div class="col-md-12">
       <div class="news-item d-flex">
         <div class="news-img-wrapper">
-          <img src="images/berita2.jpg" alt="News 2" class="img-fluid news-img" />
+          <img src="./public/asset/img/berita2.jpg" alt="News 2" class="img-fluid news-img" />
         </div>
         <div class="news-text">
           <h5 class="news-title">Kerusuhan di Jakarta Tuntut Perubahan Hukum</h5>
@@ -351,9 +351,4 @@
   </div>
 </div>
 
-
-<div class="container" style="height: 100vh; display: flex; justify-content: center">
-  
-</div>
-
-<?php include "../fragmen/footer.php"; ?>
+<?php include "../spasial/footer.php"; ?>

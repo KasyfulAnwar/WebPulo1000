@@ -1,11 +1,11 @@
 <!-- NAVIGASI -->
-<?php include "../fragmen/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
 
 <!-- Konten Pariwisata -->
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="images/bg5.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
+    <img src="./public/asset/img/bg5.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
   </div>
 
   <!-- Teks di Tengah -->
@@ -21,7 +21,7 @@
     <!-- Card 1 -->
     <div class="col">
       <div class="card h-100 shadow-sm">
-        <img src="images/background1.jpg" class="card-img-top" alt="Pantai Bali" />
+        <img src="./public/asset/img/background1.jpg" class="card-img-top" alt="Pantai Bali" />
         <div class="card-body">
           <h5 class="card-title">Pantai Kuta, Bali</h5>
           <p class="card-text">Nikmati matahari terbenam yang menakjubkan di pantai paling ikonik di Indonesia.</p>
@@ -32,7 +32,7 @@
     <!-- Card 2 -->
     <div class="col">
       <div class="card h-100 shadow-sm">
-        <img src="images/background2.jpg" class="card-img-top" alt="Candi Borobudur" />
+        <img src="./public/asset/img/background2.jpg" class="card-img-top" alt="Candi Borobudur" />
         <div class="card-body">
           <h5 class="card-title">Candi Borobudur</h5>
           <p class="card-text">Warisan budaya dunia yang megah, penuh makna dan sejarah peradaban Nusantara.</p>
@@ -43,7 +43,7 @@
     <!-- Card 3 -->
     <div class="col">
       <div class="card h-100 shadow-sm">
-        <img src="images/background3.jpg" class="card-img-top" alt="Raja Ampat" />
+        <img src="./public/asset/img/background3.jpg" class="card-img-top" alt="Raja Ampat" />
         <div class="card-body">
           <h5 class="card-title">Raja Ampat, Papua</h5>
           <p class="card-text">Surga bawah laut yang tiada duanya, cocok untuk para pecinta snorkeling dan diving.</p>
@@ -58,16 +58,16 @@
   <h2 class="mb-4" style="text-align: center; padding-right: 210px">Galeri Destinasi</h2>
   <div class="row g-3">
     <div class="col-md-3 col-6">
-      <img src="images/desti1.jpg" class="gallery-img" alt="Gunung" data-fancybox="gallery" />
+      <img src="./public/asset/img/desti1.jpg" class="gallery-img" alt="Gunung" data-fancybox="gallery" />
     </div>
     <div class="col-md-3 col-6">
-      <img src="images/desti2.jpeg" class="gallery-img" alt="Danau" data-fancybox="gallery" />
+      <img src="./public/asset/img/desti2.jpeg" class="gallery-img" alt="Danau" data-fancybox="gallery" />
     </div>
     <div class="col-md-3 col-6">
-      <img src="images/desti3.jpeg" class="gallery-img" alt="Hutan" data-fancybox="gallery" />
+      <img src="./public/asset/img/desti3.jpeg" class="gallery-img" alt="Hutan" data-fancybox="gallery" />
     </div>
     <div class="col-md-3 col-6">
-      <img src="images/desti4.jpeg" class="gallery-img" alt="Air Terjun" data-fancybox="gallery" />
+      <img src="./public/asset/img/desti4.jpeg" class="gallery-img" alt="Air Terjun" data-fancybox="gallery" />
     </div>
   </div>
 </section>
@@ -172,4 +172,4 @@
 ?>
 
 <!-- FOOTER -->
-<?php include "../fragmen/footer.php"; ?>
+<?php include "../spasial/footer.php"; ?>

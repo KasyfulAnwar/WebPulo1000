@@ -58,13 +58,13 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" id="pemerintahan" data-bs-toggle="dropdown" aria-expanded="false"> PEMERINTAH </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="pages/agenda">AGENDA</a></li>
+                <li><a class="dropdown-item" href="./view/page/agenda.php">AGENDA</a></li>
                 <!-- SUB DROPDOWN -->
                 <li class="nav-item dropend">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">LAPORAN </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" id="sub-dropdown" href="pages/laporan">LAPORAN KINERJA INSTANSI PEMERINTAH</a>
+                      <a class="dropdown-item" id="sub-dropdown" href="./view/page/laporan.php">LAPORAN KINERJA INSTANSI PEMERINTAH</a>
                     </li>
                     <li>
                       <a class="dropdown-item" id="sub-dropdown" href="#">PERJANJIAN KINERJA</a>
@@ -88,9 +88,9 @@
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">KECAMATAN </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="pages/seribu_selatan" id="sub-dropdown">SERIBU SELATAN</a>
+                      <a class="dropdown-item" href="./view/page/seribu_selatan.php" id="sub-dropdown">SERIBU SELATAN</a>
                     </li>
-                    <li><a class="dropdown-item" href="pages/seribu_utara" id="sub-dropdown">SERIBU UTARA</a></li>
+                    <li><a class="dropdown-item" href="./view/page/seribu_utara.php" id="sub-dropdown">SERIBU UTARA</a></li>
                   </ul>
                 </li>
                 <li class="nav-item dropend">
@@ -99,21 +99,21 @@
                     <li>
                       <a class="dropdown-item" href="pages/kel_untung_jawa" id="sub-dropdown">KEL. UNTUNG JAWA</a>
                     </li>
-                    <li><a class="dropdown-item" href="pages/kel_pari" id="sub-dropdown">KEL. PARI</a></li>
-                    <li><a class="dropdown-item" href="pages/kel_tidung" id="sub-dropdown">KEL. TIDUNG</a></li>
-                    <li><a class="dropdown-item" href="pages/kel_harapan" id="sub-dropdown">KEL. HARAPAN</a></li>
-                    <li><a class="dropdown-item" href="pages/kel_kelapa" id="sub-dropdown">KEL. KELAPA</a></li>
-                    <li><a class="dropdown-item" href="pages/kel_panggang" id="sub-dropdown">KEL. PANGGANG</a></li>
+                    <li><a class="dropdown-item" href="./view/page/kel_pari.php" id="sub-dropdown">KEL. PARI</a></li>
+                    <li><a class="dropdown-item" href="./view/page/kel_tidung.php" id="sub-dropdown">KEL. TIDUNG</a></li>
+                    <li><a class="dropdown-item" href="./view/page/kel_harapan.php" id="sub-dropdown">KEL. HARAPAN</a></li>
+                    <li><a class="dropdown-item" href="./view/page/kel_kelapa.php" id="sub-dropdown">KEL. KELAPA</a></li>
+                    <li><a class="dropdown-item" href="./view/page/kel_panggang.php" id="sub-dropdown">KEL. PANGGANG</a></li>
                   </ul>
                 </li>
                 <li class="nav-item dropend">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PROFILE PEJABAT </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./pages/bupati" id="sub-dropdown">BUPATI</a></li>
+                    <li><a class="dropdown-item" href="./view/page/bupati.php" id="sub-dropdown">BUPATI</a></li>
                   </ul>
                 </li>
                 <!--END SUB DROPDOWN-->
-                <li><a class="dropdown-item" href="./pages/profil_wilayah" id="sub-dropdown">PROFIL WILAYAH</a></li>
+                <li><a class="dropdown-item" href="./view/page/profil_wilayah.php" id="sub-dropdown">PROFIL WILAYAH</a></li>
                 <li>
                   <a class="dropdown-item" href="#">STRUKTUR ORGANISASI</a>
                 </li>
@@ -125,8 +125,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="pemerintahan" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PARIWISATA </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="pages/pariwisata">PARIWISATA</a></li>
-                <li><a class="dropdown-item" href="pages/data_pengunjung">DATA PENGUNJUNG</a></li>
+                <li><a class="dropdown-item" href="./view/page/pariwisata.php">PARIWISATA</a></li>
+                <li><a class="dropdown-item" href="./view/page/data_pengunjung.php">DATA PENGUNJUNG</a></li>
               </ul>
             </li>
             <!--END DROPDOWN PARIWISATA-->
@@ -135,8 +135,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="pemerintahan" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> MEDIA </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="pages/berita">BERITA</a></li>
-                <li><a class="dropdown-item" href="pages/berita_foto">BERITA FOTO</a></li>
+                <li><a class="dropdown-item" href="./view/page/berita.php">BERITA</a></li>
+                <li><a class="dropdown-item" href="./view/page/berita_foto.php">BERITA FOTO</a></li>
                 <li><a class="dropdown-item" href="#">BROADCAST</a></li>
               </ul>
             </li>

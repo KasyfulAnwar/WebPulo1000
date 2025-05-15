@@ -21,7 +21,7 @@
         <div class="agenda-layout">
     <!-- Foto akan berubah via JS -->
     <div class="agenda-photo-box" id="photoBox">
-        <img src="../assets/photo/plt_bupati_fadjar_putih.png" alt="Foto Pejabat" id="pejabatPhoto">
+        <img src="../public/asset/photo/plt_bupati_fadjar_putih.png" alt="Foto Pejabat" id="pejabatPhoto">
     </div>
         <div class="agenda-grid">
             <div class="sub-agenda-container">

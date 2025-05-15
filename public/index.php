@@ -5,13 +5,13 @@
     <!-- Hero Section with Slideshow -->
     <div class="hero">
       <div class="slideshow">
-        <div class="hero-slide active" style="background-image: url('images/background1.jpg')">
+        <div class="hero-slide active" style="background-image: url('./public/asset/img/background1.jpg')">
           <div class="slide-text">HARAPAN</div>
         </div>
-        <div class="hero-slide" style="background-image: url('images/background2.jpg')">
+        <div class="hero-slide" style="background-image: url('./public/asset/img/background2.jpg')">
           <div class="slide-text">SEPA</div>
         </div>
-        <div class="hero-slide" style="background-image: url('images/background3.jpg')">
+        <div class="hero-slide" style="background-image: url('./public/asset/img/background3.jpg')">
           <div class="slide-text">KELOR</div>
         </div>
       </div>
@@ -102,7 +102,7 @@
                   <img src="./public/asset/photo/SKM.jpg" alt="Gambar 1" class="img-fluid rounded shadow" />
                 </div>
                 <div class="layanan-img">
-                  <img src="images/wisatawan.png" alt="Gambar 2" class="img-fluid rounded shadow" />
+                  <img src="./public/asset/img/wisatawan.png" alt="Gambar 2" class="img-fluid rounded shadow" />
                 </div>
               </div>
             </div>
@@ -257,42 +257,42 @@
         <div class="grid-container">
           <div class="grid-item">
             <a href="images/pano.jpg" data-fancybox="gallery">
-              <img src="images/pano.jpg" alt="Pulau Tropis" />
+              <img src="./public/asset/img/pano.jpg" alt="Pulau Tropis" />
             </a>
           </div>
           <div class="grid-item">
             <a href="images/pano2.jpg" data-fancybox="gallery">
-              <img src="images/pano2.jpg" alt="Terumbu Karang" />
+              <img src="./public/asset/img/pano2.jpg" alt="Terumbu Karang" />
             </a>
           </div>
           <div class="grid-item">
             <a href="images/pano3.jpg" data-fancybox="gallery">
-              <img src="images/pano3.jpg" alt="Pantai dan Perahu" />
+              <img src="./public/asset/img/pano3.jpg" alt="Pantai dan Perahu" />
             </a>
           </div>
           <div class="grid-item">
             <a href="images/pano4.jpg" data-fancybox="gallery">
-              <img src="images/pano4.jpg" alt="Langit Senja" />
+              <img src="./public/asset/img/pano4.jpg" alt="Langit Senja" />
             </a>
           </div>
           <div class="grid-item">
             <a href="images/pano5.jpg" data-fancybox="gallery">
-              <img src="images/pano5.jpg" alt="Hutan Tropis" />
+              <img src="./public/asset/img/pano5.jpg" alt="Hutan Tropis" />
             </a>
           </div>
           <div class="grid-item">
             <a href="images/pano6.jpg" data-fancybox="gallery">
-              <img src="images/pano6.jpg" alt="Pulau Kecil" />
+              <img src="./public/asset/img/pano6.jpg" alt="Pulau Kecil" />
             </a>
           </div>
           <div class="grid-item">
             <a href="images/pano7.jpg" data-fancybox="gallery">
-              <img src="images/pano7.jpg" alt="Pulau Kecil" />
+              <img src="./public/asset/img/pano7.jpg" alt="Pulau Kecil" />
             </a>
           </div>
           <div class="grid-item">
             <a href="images/pano8.jpg" data-fancybox="gallery">
-              <img src="images/pano8.jpg" alt="Pulau Kecil" />
+              <img src="./public/asset/img/pano8.jpg" alt="Pulau Kecil" />
             </a>
           </div>
         </div>

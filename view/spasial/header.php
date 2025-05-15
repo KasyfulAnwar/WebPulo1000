@@ -26,7 +26,7 @@
   <body>
     <div class="loading">
       <div class="loader">
-        <img src="images/loading.png" alt="Loading..." />
+        <img src="./public/asset/img/loading.png" alt="Loading..." />
         <div class="dots">
           <span></span>
           <span></span>

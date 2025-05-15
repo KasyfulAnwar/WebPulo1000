@@ -61,7 +61,7 @@
       </a>
     </div>
     <div class="col-md-4">
-      <a href="pages/kel_tidung.php" class="card-link">
+      <a href="./view/page/kel_tidung.php" class="card-link">
         <div class="card text-center p-4 card-hover">
           <i class="bi bi-bank icon-style text-success"></i>
           <div class="card-body">
@@ -71,7 +71,7 @@
       </a>
     </div>
     <div class="col-md-4">
-      <a href="pages/kel_untung_jawa.php" class="card-link">
+      <a href="./view/page/kel_untung_jawa.php" class="card-link">
         <div class="card text-center p-4 card-hover">
           <i class="bi bi-bank icon-style text-success"></i>
           <div class="card-body">

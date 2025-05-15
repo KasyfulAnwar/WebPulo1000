@@ -1,9 +1,9 @@
-<?php include "../fragmen/header.php"; ?>
+<?php include "../spasial/header.php"; ?>
 
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="images/p_pari.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
+    <img src="./public/asset/img/p_pari.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
   </div>
 
   <!-- Teks di Tengah -->
@@ -62,7 +62,7 @@
   <div class="row">
     <!-- Gambar Profil (kiri) -->
     <div class="col-md-4 text-center">
-      <img src="assets/photo/lurah_pari.png" alt="sidartawan" class="profile-image" />
+      <img src="./public/asset/photo/lurah_pari.png" alt="sidartawan" class="profile-image" />
     </div>
     <!-- Deskripsi Profil (kanan) -->
     <div class="col-md-8">
@@ -86,7 +86,7 @@
     <!-- Row 1 -->
     <div class="col">
       <div class="card">
-        <img src="images/background2.jpg" alt="Mandalika" class="card-img" />
+        <img src="./public/asset/img/background2.jpg" alt="Mandalika" class="card-img" />
 
         <div class="card-description">
           <h3 class="card-title">Mandalika</h3>
@@ -97,7 +97,7 @@
 
     <div class="col">
       <div class="card">
-        <img src="images/background2.jpg" alt="Labuan Bajo" class="card-img" />
+        <img src="./public/asset/img/background2.jpg" alt="Labuan Bajo" class="card-img" />
 
         <div class="card-description">
           <h3 class="card-title">Labuan Bajo</h3>
@@ -108,7 +108,7 @@
 
     <div class="col">
       <div class="card">
-        <img src="images/background2.jpg" alt="Likupang" class="card-img" />
+        <img src="./public/asset/img/background2.jpg" alt="Likupang" class="card-img" />
 
         <div class="card-description">
           <h3 class="card-title">Likupang</h3>
@@ -122,7 +122,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
-        <img src="images/background2.jpg" alt="Danau Toba" class="card-img" />
+        <img src="./public/asset/img/background2.jpg" alt="Danau Toba" class="card-img" />
 
         <div class="card-description">
           <h3 class="card-title">Danau Toba</h3>
@@ -133,7 +133,7 @@
 
     <div class="col">
       <div class="card">
-        <img src="images/background2.jpg" alt="Borobudur" class="card-img" />
+        <img src="./public/asset/img/background2.jpg" alt="Borobudur" class="card-img" />
 
         <div class="card-description">
           <h3 class="card-title">Borobudur</h3>
@@ -144,7 +144,7 @@
 
     <div class="col">
       <div class="card">
-        <img src="images/background2.jpg" alt="Pulau Morotai" class="card-img" />
+        <img src="./public/asset/img/background2.jpg" alt="Pulau Morotai" class="card-img" />
 
         <div class="card-description">
           <h3 class="card-title">Pulau Morotai</h3>
@@ -165,7 +165,7 @@
     <div class="col-md-12">
       <div class="news-item d-flex">
         <div class="news-img-wrapper">
-          <img src="images/berita2.jpg" alt="News 2" class="img-fluid news-img" />
+          <img src="./public/asset/img/berita2.jpg" alt="News 2" class="img-fluid news-img" />
         </div>
         <div class="news-text">
           <h5 class="news-title">Curhat Pemilik Restoran Tangsel Dipalak Rp3 Juta per Bulan Agar Aman</h5>
@@ -178,7 +178,7 @@
     <div class="col-md-12">
       <div class="news-item d-flex">
         <div class="news-img-wrapper">
-          <img src="images/berita2.jpg" alt="News 2" class="img-fluid news-img" />
+          <img src="./public/asset/img/berita2.jpg" alt="News 2" class="img-fluid news-img" />
         </div>
         <div class="news-text">
           <h5 class="news-title">Disiram Pakai Sampanye Non-alkohol, Salah Peringatkan Nunez</h5>
@@ -191,7 +191,7 @@
     <div class="col-md-12">
       <div class="news-item d-flex">
         <div class="news-img-wrapper">
-          <img src="images/berita2.jpg" alt="News 2" class="img-fluid news-img" />
+          <img src="./public/asset/img/berita2.jpg" alt="News 2" class="img-fluid news-img" />
         </div>
         <div class="news-text">
           <h5 class="news-title">Kerusuhan di Jakarta Tuntut Perubahan Hukum</h5>
@@ -205,4 +205,4 @@
   
 </div>
 
-<?php include "../fragmen/footer.php"; ?>
+<?php include "../spasial/footer.php"; ?>

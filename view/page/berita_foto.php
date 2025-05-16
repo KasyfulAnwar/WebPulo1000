@@ -4,13 +4,12 @@
 <div class="hero2 position-relative">
   <!-- Gambar Tetap Hero Pariwisata -->
   <div class="hero-fixed">
-    <img src="./public/asset/img/p_pari.jpg" alt="Hero Pariwisata" style="width: 100%; height: 85vh; object-fit: cover" />
+    <img src="./public/asset/img/p_pari.jpg" alt="Hero Pariwisata" style="width: 100%; height: 50vh; object-fit: cover, box-shadow: 0 10px 20px rgba(0, 0, 0,0.5);" />
   </div>
 
   <!-- Teks di Tengah -->
-  <div class="hero-text position-absolute top-50 start-50 translate-middle text-white text-center">
-    <h1 class="fw-bold display-4">BERITA FOTO</h1>
-    <p class="lead"></p>
+<div class="hero-text position-absolute text-white text-center">    <h1 class="fw-bold display-4">Berita Foto</h1>
+    <p class="lead">Kabupaten Administrasi Kepulauan Seribu</p>
   </div>
 </div>
 

@@ -26,7 +26,7 @@
   <body>
     <div class="loading">
       <div class="loader">
-        <img src="./public/asset/img/loading.png" alt="Loading..." />
+        <img src="./public/asset/img/loading.png" alt="Loading..."  />
         <div class="dots">
           <span></span>
           <span></span>
@@ -38,7 +38,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <!-- LOGO -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./public/index.php">
           <img src="./public/asset/img/logo.png" alt="Logo" height="50" />
         </a>
 
@@ -51,7 +51,7 @@
           <ul class="navbar-nav me-auto mb-5 mb-lg-0">
             <!-- NAVBAR BERANDA -->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index">BERANDA</a>
+              <a class="nav-link active" aria-current="page" href="./public/index.php">BERANDA</a>
             </li>
 
             <!--DROPDOWN PEMERINTAHAN-->

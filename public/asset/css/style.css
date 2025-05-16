@@ -27,7 +27,6 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
-
 /* LOADERS*/
 .loading {
   position: fixed;
@@ -782,74 +781,162 @@ h2 {
 }
 /* PANORAMA END */
 
+/* HUBUNGI KAMI START */
+/* Container utama */
+.container-contact {
+  max-width: 1300px;
+  margin: 7rem;
+  padding: 40px 20px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  width: 100%;
+  margin-left: 8rem;
+}
+
+/* Grid utama */
+.grid-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: stretch;
+  margin-top: -100px;
+  margin-left: 5rem;
+}
+
+/* Kotak kontak kiri */
+.contact-card {
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  max-width: 750px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.contact-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contact-card .desc {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px 0;
+}
+
+.icon {
+  font-size: 1.3rem;
+  color: #00bcd4;
+  margin-top: 4px;
+}
+
+.info-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.info-item a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 0;
+}
+
+.note {
+  color: #777;
+  font-size: 0.9em;
+}
+
+/* Kolom kanan: wrapper 2 map */
+.map-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  height: 100%;
+}
+
+/* Style untuk tiap map */
+.map-box {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.map-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* HUBUNGI KAMI END */
+
 /* footer start */
-footer {
+.main-footer {
+  background-color: #008080;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background: #008080;
-  color: #fff;
-  padding: 20px;
+  padding: 40px 20px;
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-footer .col {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex: 1;
-  padding: 10px;
-  min-width: 250px;
-  position: relative;
-  /* border-right: 1px solid rgba(255, 255, 255, 0.3); */
+.footer-column {
+  margin-bottom: 20px;
 }
 
-footer .col:last-child {
-  border-right: none;
-}
-
-footer .logo {
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
-
-footer h4 {
-  font-size: 22px;
-}
-
-footer p {
-  font-size: 13px;
-  margin: 0 0 8px 0;
-}
-
-footer a {
-  font-size: 16px;
+.footer-column a {
+  color: #ddd;
   text-decoration: none;
-  color: #fff;
-  margin-bottom: 10px;
 }
 
-footer .follow i {
-  color: #ffff;
-  padding-right: 4px;
-  cursor: pointer;
+.footer-column a:hover {
+  text-decoration: underline;
 }
 
-footer .follow h4 {
-  font-size: 12px;
-  margin-left: 10px;
+.social-icons img {
+  width: 30px;
+  margin-right: 10px;
 }
 
-footer .follow .icon {
-  margin-left: 10px;
+.google-play {
+  height: 45px;
 }
 
-footer .copyright {
-  width: 100%;
+.footer-bottom {
+  background-color: #003636;
   text-align: center;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 0;
 }
+
+.footer-bottom p {
+  margin-top: 15px;
+}
+
 /* footer end*/
 
 /*looker studi*/
@@ -2023,7 +2110,7 @@ p i {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 #unduh_laporan {
@@ -2046,7 +2133,8 @@ p i {
   text-align: center;
 }
 
-.table td, .table th {
+.table td,
+.table th {
   vertical-align: middle;
 }
 

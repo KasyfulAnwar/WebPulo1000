@@ -21,6 +21,13 @@ h2 {
   overflow: hidden;
 }
 
+.hero-text {
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 /* LOADERS*/
 .loading {
   position: fixed;

@@ -7,7 +7,7 @@
   </div>
 
   <!-- Teks di Tengah -->
-  <div class="hero-text position-absolute top-50 start-50 translate-middle text-white text-center">
+<div class="hero-text position-absolute text-white text-center">
     <h1 class="fw-bold display-4">Profil Wilayah</h1>
     <p class="lead">Kabupaten Administrasi Kepulauan Seribu</p>
   </div>

@@ -9,6 +9,7 @@
   <!-- Teks di Tengah -->
 <div class="hero-text position-absolute text-white text-center">
     <h1 class="fw-bold display-4">Laporan</h1>
+    <p class="lead">Kabupaten Administrasi Kepulauan Seribu</p>
   </div>
 </div>
 

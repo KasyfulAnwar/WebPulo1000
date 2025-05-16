@@ -299,6 +299,7 @@
       </div>
     </div>
 
+    <!-- Section Kontak Kami Start  -->
       <div class="hero2">    
       <h2 class="title">KONTAK KAMI</h2>
       <p class="description">Silahkan Hubungin Kami Disini</p>
@@ -344,6 +345,7 @@
         <!-- Peta Lokasi -->
         <div class="map-wrapper">
         <div class="map-box">
+          <!-- <p class="map-title">Kantor Bupati Administrasi Kepulauan Seribu</p> -->
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.7671636548866!2d106.61305039999999!3d-5.7466247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1fb93ba5e2f9%3A0x4fa52a9b61d5995b!2sKantor%20Bupati%20Administrasi%20Kepulauan%20Seribu!5e0!3m2!1sid!2sid!4v1741828861587!5m2!1sid!2sid"
             width="100%"
@@ -356,6 +358,7 @@
           </iframe>
         </div>
         <div class="map-box">
+          <!-- <p class="map-title">Kab. Administrasi Kepulauan Seribu</p> -->
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508248.7354956543!2d106.6169964!3d-5.61224045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41d68cd396621f%3A0xa06e871c66df72b3!2sKab.%20Administrasi%20Kepulauan%20Seribu%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1741757249870!5m2!1sid!2sid"
             width="100%"
@@ -371,5 +374,6 @@
       </div>
     </div>
     </div>
+    <!-- Section Kontak Kami End -->
 
     <?php include "../view/spasial/footer.php"; ?>

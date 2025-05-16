@@ -2424,18 +2424,27 @@ p i {
   }
 
   /* Footer */
-  footer {
+  .footer-container {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-  footer .col {
-    align-items: center;
+  .footer-column {
+    max-width: 100%;
+    text-align: left;
+    margin-bottom: -20px;
   }
 
-  footer .logo {
-    margin-top: 10px;
+  .footer-column img.logo {
+    margin: 0;
+    display: block;
+    width: 200px;
+    padding-left: 0;
+  }
+
+  .icon a {
+    margin: 0 5px;
   }
 
   /* Pagination */
@@ -2455,6 +2464,7 @@ p i {
 
   .grid-item a img {
     height: 5vh;
+    height: 200px;
   }
 
   /* sub Berita start*/
@@ -2622,6 +2632,62 @@ p i {
     border-radius: 15px;
     object-fit: cover;
   }
-
   /* sub agenda end */
+
+  /* kontak kami start*/
+
+  .container-contact {
+    max-width: 650px;
+    margin: 10px;
+    padding: 20px 10px;
+  }
+
+  .grid-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Biar card dan map sejajar ke tengah */
+    gap: 20px; /* Spasi antara elemen */
+    margin: 0; /* Hapus margin negatif */
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 95vw; /* Lebih fleksibel dari 300px */
+    margin: 0 auto; /* Tengah otomatis */
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+
+  .map-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .map-box {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .map-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+    padding-left: 4px;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+  }
+  /* kontak kami end */
 }
